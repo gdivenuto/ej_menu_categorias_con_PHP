@@ -15,7 +15,7 @@ abstract class ModeloBase
 		$this->servidor   = "localhost";
 		$this->base_datos = "negocio";
 		$this->usuario    = "root";
-		$this->password   = "n0m34cu3rd0";
+		$this->password   = "";
 		// Nombre de las tablas de la DB
 		$this->tabla_categorias = $this->base_datos.'.categorias';
 	}
